@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1421CCBC1FD694180025591D /* 年月.png in Resources */ = {isa = PBXBuildFile; fileRef = 1421CCB81FD694180025591D /* 年月.png */; };
+		1421CCBD1FD694180025591D /* 年月日.png in Resources */ = {isa = PBXBuildFile; fileRef = 1421CCB91FD694180025591D /* 年月日.png */; };
+		1421CCBE1FD694180025591D /* 年月日时分秒.png in Resources */ = {isa = PBXBuildFile; fileRef = 1421CCBA1FD694180025591D /* 年月日时分秒.png */; };
+		1421CCBF1FD694180025591D /* 时分秒.png in Resources */ = {isa = PBXBuildFile; fileRef = 1421CCBB1FD694180025591D /* 时分秒.png */; };
 		142A7A2D1FD633F80079F722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142A7A2C1FD633F80079F722 /* AppDelegate.m */; };
 		142A7A301FD633F80079F722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142A7A2F1FD633F80079F722 /* ViewController.m */; };
 		142A7A331FD633F80079F722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142A7A311FD633F80079F722 /* Main.storyboard */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1421CCB81FD694180025591D /* 年月.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "年月.png"; sourceTree = "<group>"; };
+		1421CCB91FD694180025591D /* 年月日.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "年月日.png"; sourceTree = "<group>"; };
+		1421CCBA1FD694180025591D /* 年月日时分秒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "年月日时分秒.png"; sourceTree = "<group>"; };
+		1421CCBB1FD694180025591D /* 时分秒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "时分秒.png"; sourceTree = "<group>"; };
 		142A7A281FD633F80079F722 /* CLLPickerDateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLLPickerDateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		142A7A2B1FD633F80079F722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		142A7A2C1FD633F80079F722 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,9 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1421CCB71FD694180025591D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1421CCB81FD694180025591D /* 年月.png */,
+				1421CCB91FD694180025591D /* 年月日.png */,
+				1421CCBA1FD694180025591D /* 年月日时分秒.png */,
+				1421CCBB1FD694180025591D /* 时分秒.png */,
+			);
+			name = images;
+			path = CLLPickerDateDemo/images;
+			sourceTree = "<group>";
+		};
 		142A7A1F1FD633F80079F722 = {
 			isa = PBXGroup;
 			children = (
+				1421CCB71FD694180025591D /* images */,
 				142A7A2A1FD633F80079F722 /* CLLPickerDateDemo */,
 				142A7A431FD633F80079F722 /* CLLPickerDateDemoTests */,
 				142A7A4E1FD633F80079F722 /* CLLPickerDateDemoUITests */,
@@ -256,9 +277,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1421CCBE1FD694180025591D /* 年月日时分秒.png in Resources */,
 				142A7A381FD633F80079F722 /* LaunchScreen.storyboard in Resources */,
+				1421CCBC1FD694180025591D /* 年月.png in Resources */,
 				142A7A351FD633F80079F722 /* Assets.xcassets in Resources */,
+				1421CCBF1FD694180025591D /* 时分秒.png in Resources */,
 				142A7A331FD633F80079F722 /* Main.storyboard in Resources */,
+				1421CCBD1FD694180025591D /* 年月日.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

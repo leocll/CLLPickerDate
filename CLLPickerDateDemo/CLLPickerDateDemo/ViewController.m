@@ -40,14 +40,19 @@
 }
 
 - (void)showPickerWithMode:(CLLPickerDateOptions)mode dateFormat:(NSString *)format button:(UIButton *)btn {
+    btn.selected = YES;
     __weak typeof(self) weakSelf = self;
     CLLPickerDate *picker = [[CLLPickerDate alloc] init];
     picker.mode = mode;
     picker.date = self.date;
     picker.touchesSureBlock = ^(NSDictionary<CLLPickerDateSelectedKey,NSNumber *> * _Nonnull selectedValueDictionary, NSDate * _Nonnull date) {
+        btn.selected = NO;
         weakSelf.date = date;
         weakSelf.format.dateFormat = format;
         [btn setTitle:[weakSelf.format stringFromDate:date] forState:UIControlStateNormal];
+    };
+    picker.touchesCancelBlock = ^{
+        btn.selected = NO;
     };
     [picker show];
 }

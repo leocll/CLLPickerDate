@@ -3,4 +3,4 @@
 ```
 pod 'CLLPickerDate'
 ```
-![image](CLLPickerDate/CLLPickerDateDemo/CLLPickerDateDemo/images/年月日时分秒.png)
+![image](https://raw.githubusercontent.com/leocll/CLLPickerDate/master/CLLPickerDateDemo/CLLPickerDateDemo/images/%E5%B9%B4%E6%9C%88%E6%97%A5%E6%97%B6%E5%88%86%E7%A7%92.png)
